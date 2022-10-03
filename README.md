@@ -28,6 +28,7 @@ LIKELION BACKEND SCHOOL 2 - Algorithm Study
     - 파일명 : 이름_BOJ/PG_문제번호 ex)minji_BOJ_1000
 - 커밋 규칙
   weekn_이름 [BOJ/PG_문제번호] ex)week1_minji [BOJ_1000]
+
 **pull 받을 때**
 1. git checkout main
 2. git pull origin main
