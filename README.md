@@ -28,7 +28,19 @@ LIKELION BACKEND SCHOOL 2 - Algorithm Study
     - 파일명 : 이름_BOJ/PG_문제번호 ex)minji_BOJ_1000
 - 커밋 규칙
   weekn_이름 [BOJ/PG_문제번호] ex)week1_minji [BOJ_1000]
+**pull 받을 때**
+1. git checkout main
+2. git pull origin main
+3. git checkout 본인브랜치이름
+4. git rebase main
 
+**push 할 때**
+1. git checkout 본인브랜치이름
+2. git status .
+3. git add .
+4. git commit -m "커밋메시지"
+5. git push origin 본인브랜치이름
+---
 ### 알고리즘 공부 순서
 **weeks 버전**
 |주차|알고리즘|설명|
