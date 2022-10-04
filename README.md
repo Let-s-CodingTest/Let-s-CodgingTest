@@ -21,13 +21,14 @@ LIKELION BACKEND SCHOOL 2 - Algorithm Study
 ### Git🌿
 - 모임 당일 merge
 - 각자의 이름으로 branch 생성 후 해당 branch에 commit 후 push
-- 폴더
-  - week_n
+- 디렉토리 구조
+  - week_n/
     - 문제 별 폴더(BOJ_1000) : 스터디 당일에 같이 푼 문제
+  - week_n/[이름]
     - 개인적으로 푼 문제
-    - 파일명 : 이름_BOJ/PG_문제번호 ex)minji_BOJ_1000
-- 커밋 규칙
-  weekn_이름 [BOJ/PG_문제번호] ex)week1_minji [BOJ_1000]
+    - 파일명 : BOJ/PG_문제번호 ex)BOJ_1000
+- 커밋 메시지 규칙
+  > weekn_이름 [BOJ/PG_문제번호] ex)week1_minji [BOJ_1000]
 
 **pull 받을 때**
 1. git checkout main
