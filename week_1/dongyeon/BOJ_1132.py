@@ -21,11 +21,11 @@ for i, col in enumerate(zip(*arr)):
             cnt_dic[x] = 10**(max_len-i) # 자리수에 따른 우선순위 부여
         else:
             cnt_dic[x] += 10**(max_len-i) # 자리수에 따른 우선순위 부여
-    sorted_dict = sorted(cnt_dic.items(), key=lambda item: item[1], reverse=True)
-    if len(sorted_dict) == 1 or (len(sorted_dict) > 1 and sorted_dict[0][1] != sorted_dict[1][1]): # 유일한 최대값인지 확인
-        dic[sorted_dict[0][0]] = cnt
-        cnt -= 1
-        del cnt_dic[sorted_dict[0][0]]
+    # sorted_dict = sorted(cnt_dic.items(), key=lambda item: item[1], reverse=True)
+    # if len(sorted_dict) == 1 or (len(sorted_dict) > 1 and sorted_dict[0][1] != sorted_dict[1][1]): # 유일한 최대값인지 확인
+    #     dic[sorted_dict[0][0]] = cnt
+    #     cnt -= 1
+    #     del cnt_dic[sorted_dict[0][0]]
 sorted_dict = sorted(cnt_dic.items(), key=lambda item: item[1], reverse=True) # 남은 알파벳 dic 에 추가
 for x in sorted_dict:
     dic[x[0]] = cnt
