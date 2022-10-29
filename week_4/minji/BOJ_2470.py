@@ -18,7 +18,3 @@ while left<right:
     else:
         left+=1
 print(answer[0], answer[1])
-
-'''
-5
--2 4 -99 -1 98'''
