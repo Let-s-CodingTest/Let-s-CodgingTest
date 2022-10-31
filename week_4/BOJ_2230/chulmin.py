@@ -6,18 +6,21 @@ n, m = map(int, input().split())
 nums = []
 for _ in range(n):
     nums.append(int(input()))
-
 #정렬
 nums.sort()
 #투포인터 활용
-s = 0
-e = len(nums) - 1
-result = 1e9
-while s != e:
-    value = abs(nums[s] - nums[e])
-    if value >= m:
-        result = min(result, value);
+left = 0
+right = 1
+result = sys.maxsize # sys.maxsize : int의 최대값
+while left < n and right < n:
+    value = nums[right] - nums[left]
+    if value == m:
+        print(m)
+        exit(0)
     if value < m:
-        s+=1
+        right+=1
+        continue
+    left+=1
+    result = min(result, value);
 
 print(result)
