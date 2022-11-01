@@ -51,3 +51,7 @@ LIKELION BACKEND SCHOOL 2 - Algorithm Study
 |2주차|구현|완전탐색, 시뮬레이션|
 |3주차|DFS & BFS||
 |4주차|정렬|선택, 삽입, 큌...|
+|5주차|이진탐색||
+|6주차|DP(다이나믹프로그래밍)||
+|7주차|최단경로|다익스트라, 벨만-포드, Floyd-Warshall|
+|8주차|그래프 이론|Union-Find, 크루스칼 등|
