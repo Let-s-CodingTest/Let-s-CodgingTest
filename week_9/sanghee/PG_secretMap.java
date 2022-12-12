@@ -11,7 +11,6 @@ public class SecretMap {
             while(answer[i].length() != n)
                 answer[i]  = " " + answer[i];
         }
-
         return answer;
     }
 

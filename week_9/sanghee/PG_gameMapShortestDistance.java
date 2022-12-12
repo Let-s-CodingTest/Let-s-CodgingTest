@@ -24,7 +24,6 @@ public class GameMap {
             answer++;
             while (--size >= 0) {
                 int[] q = queue.poll();
-
                 if (q[0] == R - 1 && q[1] == C - 1)
                     return true;
 

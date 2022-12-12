@@ -23,7 +23,6 @@ public class MoreSpicy {
         MoreSpicy T = new MoreSpicy();
         int[] scoville = {1, 2, 3, 9, 10, 12};
         int k = 7;
-
         System.out.println(T.solution(scoville, k));
     }
 }
