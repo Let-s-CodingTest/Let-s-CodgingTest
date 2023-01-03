@@ -15,8 +15,3 @@ else:
             elif j==len(nums)-1:
                 ans=min(ans, abs(int(nums)-n)+len(nums))
 print(ans)
-
-'''
-5459 - - 또는 5455 + + -> 6번
-511111 -를 11111번 -> 11111+6 = 111117번
-'''
