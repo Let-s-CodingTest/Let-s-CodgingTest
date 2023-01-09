@@ -21,3 +21,5 @@ def chess(color) :
 N, M, K = map(int, input().split())
 board = [list(input()) for _ in range(N)]
 print(min(chess('B'), chess('W')))
+1309
+17677
